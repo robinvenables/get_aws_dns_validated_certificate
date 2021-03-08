@@ -1,8 +1,8 @@
 # get_aws_dns_validated_certificate
-A Terraform module to create an AWS DNS validated certificate
+A Terraform module to create an AWS ACM certificate validated by DNS.
 
 ## Description
-This module creates a certificate, using DNS to validate domain ownership.
+This module creates an AWS ACM certificate, using DNS to validate domain ownership.
 
 ## Inputs
 1. dns_domain_name (string) - The domain name for the Route 53 hosted zone
