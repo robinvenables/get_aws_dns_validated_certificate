@@ -14,7 +14,7 @@ This module creates an AWS ACM certificate, using DNS to validate domain ownersh
 ## Usage
 ```hcl
 module "get_certificate" {
-  source = "git@github.com:robinvenables/get_aws_dns_validated_certificate.git"
+  source = "git@github.com:robinvenablesget_aws_dns_validated_certificate.git"
 
   dns_domain_name         = "robinvenables.com"
   certificate_domain_name = "robinvenables.com"
